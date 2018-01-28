@@ -4,10 +4,10 @@ $(document).ready(function() {
 	var mark1 = $('.wecan-que-mark-1');
 	var mark2 = $('.wecan-que-mark-2');
 		mark1.click(function() {
-			block1.toggle()
+      block1.fadeIn(700)
 		});
 		mark2.click(function() {
-			block2.toggle()
+			block2.fadeIn(700)
 		});
 
 		
