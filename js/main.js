@@ -15,9 +15,8 @@ $(document).ready(function() {
     	$('.mov2').each(function(){
       	var imagePos = $('.main').offset().top;
       	var topOfWindow = $(window).scrollTop();
-      	if (imagePos < topOfWindow+500) {
+      	if (imagePos < topOfWindow+500) {  
         $(this).addClass('fadeInLeft');
-        $(this).css('display', 'block');
       }
     });
   });
@@ -27,7 +26,6 @@ $(document).ready(function() {
       	var topOfWindow = $(window).scrollTop();
       	if (imagePos < topOfWindow+500) {
         $(this).addClass('fadeInRight');
-        $(this).css('display', 'block');
       }
     });
   });
@@ -54,7 +52,7 @@ $(document).ready(function() {
         var imagePos = $(this).offset().top;
         var topOfWindow = $(window).scrollTop();
         if (imagePos < topOfWindow+750) {
-        $(this).addClass('zoomIn');
+        $(this).addClass('fadeInUp');
       }
     });
   });
