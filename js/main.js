@@ -42,8 +42,17 @@ $(document).ready(function() {
       $('.mov5').each(function(){
         var imagePos = $(this).offset().top;
         var topOfWindow = $(window).scrollTop();
-        if (imagePos < topOfWindow+750) {
+        if (imagePos < topOfWindow+700) {
         $(this).addClass('fadeInUp');
+      }
+    });
+  });
+    $(window).scroll(function() {
+      $('.mov6').each(function(){
+        var imagePos = $(this).offset().top;
+        var topOfWindow = $(window).scrollTop();
+        if (imagePos < topOfWindow+750) {
+        $(this).addClass('zoomIn');
       }
     });
   });
