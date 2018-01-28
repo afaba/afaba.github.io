@@ -17,6 +17,7 @@ $(document).ready(function() {
       	var topOfWindow = $(window).scrollTop();
       	if (imagePos < topOfWindow+500) {
         $(this).addClass('fadeInLeft');
+        $(this).css('display', 'block');
       }
     });
   });
@@ -26,6 +27,7 @@ $(document).ready(function() {
       	var topOfWindow = $(window).scrollTop();
       	if (imagePos < topOfWindow+500) {
         $(this).addClass('fadeInRight');
+        $(this).css('display', 'block');
       }
     });
   });

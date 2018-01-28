@@ -72,12 +72,15 @@ body {
       text-transform: uppercase; }
     .mission-block-1 img {
       width: 60%; }
+  .mission-hide-block {
+    display: none; }
   .mission-block-2 {
     margin-bottom: 6%;
     opacity: 1; }
     .mission-block-2-background {
       background: #3EAE3A;
-      border-radius: 20px; }
+      border-radius: 20px;
+      display: none; }
     .mission-block-2 h1 {
       text-transform: uppercase;
       font-size: 20px;
