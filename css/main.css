@@ -179,7 +179,8 @@ body {
     text-transform: uppercase;
     border: 2px solid #2f7f39;
     margin-top: 2%;
-    color: #2f7f39; }
+    color: #2f7f39;
+    font-weight: bold; }
   .wecan-hide-block-2 {
     position: absolute;
     right: 24%;
@@ -193,7 +194,8 @@ body {
     text-transform: uppercase;
     border: 2px solid #2f7f39;
     margin-top: 2%;
-    color: #2f7f39; }
+    color: #2f7f39;
+    font-weight: bold; }
   .wecan-row-4 {
     margin-top: 3%; }
     .wecan-row-4 h1 {
@@ -255,7 +257,8 @@ body {
     font-family: Arial;
     text-transform: uppercase;
     color: #fff;
-    text-align: center; }
+    text-align: center;
+    margin-top: 3%; }
   .who-row-4 {
     margin-top: 3%; }
     .who-row-4 h1 {
@@ -265,7 +268,7 @@ body {
       color: #fff; }
     .who-row-4 p {
       font-family: Arial;
-      font-size: 15px;
+      font-size: 17px;
       color: #fff;
       text-align: center; }
     .who-row-4-block-1 {
