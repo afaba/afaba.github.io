@@ -58,10 +58,12 @@ body {
 
 .mission {
   height: 100%; }
-  .mission a img:hover {
-    opacity: 0.6;
-    -webkit-transition: all 1s;
-    transition: all 1s; }
+  .mission a {
+    text-decoration: none; }
+    .mission a img:hover {
+      opacity: 0.6;
+      -webkit-transition: all 1s;
+      transition: all 1s; }
   .mission-block-1 {
     margin-top: 6%;
     margin-bottom: 6%;
