@@ -179,19 +179,7 @@ body {
     width: 13%; }
   .wecan-hide-block-1 {
     position: absolute;
-    left: 24%;
-    display: none;
-    color: #000;
-    font-family: Arial;
-    font-size: 13px;
-    padding: 1%;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-top: 2%;
-    color: #000; }
-  .wecan-hide-block-2 {
-    position: absolute;
-    right: 24%;
+    left: 35%;
     display: none;
     color: #000;
     font-family: Arial;
