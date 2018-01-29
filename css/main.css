@@ -9,7 +9,7 @@ body {
     margin-bottom: 5%; }
     .header-nav li {
       display: inline-block;
-      font-family: Myriad Pro;
+      font-family: Arial;
       text-transform: uppercase; }
       .header-nav li a {
         color: #494949;
@@ -32,7 +32,7 @@ body {
         left: -24%; }
     .header-contacts p {
       display: inline-block;
-      font-family: Myriad Pro;
+      font-family: Arial;
       text-transform: uppercase;
       font-size: 16px;
       position: relative;
@@ -86,13 +86,13 @@ body {
     .mission-block-2 h1 {
       text-transform: uppercase;
       font-size: 20px;
-      font-family: Myriad Pro;
+      font-family: Arial;
       text-align: right;
       text-align: right;
       color: #000; }
     .mission-block-2 p {
       text-align: right;
-      font-family: Myriad Pro;
+      font-family: Arial;
       font-size: 17px;
       color: #000;
       text-align: right; }
@@ -117,12 +117,12 @@ body {
     font-weight: bold;
     margin: 6% 0; }
   .services h2 {
-    font-family: Myriad Pro;
+    font-family: Arial;
     color: #fff;
     text-transform: uppercase;
     width: 100%; }
   .services p {
-    font-family: Myriad Pro;
+    font-family: Arial;
     font-size: 17px;
     color: #fff; }
   .services-block-1 {
@@ -180,7 +180,7 @@ body {
     left: 24%;
     display: none;
     color: #000;
-    font-family: Myriad Pro;
+    font-family: Arial;
     font-size: 13px;
     padding: 1%;
     font-weight: bold;
@@ -192,7 +192,7 @@ body {
     right: 24%;
     display: none;
     color: #000;
-    font-family: Myriad Pro;
+    font-family: Arial;
     font-size: 13px;
     padding: 1%;
     font-weight: bold;
@@ -622,6 +622,11 @@ body {
   .modal h1 {
     font-size: 19px; }
 
+  .modal-sbor p {
+    font-size: 14px; }
+  .modal-sbor h1 {
+    font-size: 19px; }
+
   .wecan-hide-block-1 {
     left: 2%; }
 
@@ -629,8 +634,25 @@ body {
     right: 2%; }
 
   .who-row-5-block-2 {
-    width: 60%; } }
+    width: 60%; }
+
+  .collection-block-1 h1 {
+    font-size: 20px; } }
 @media (min-width: 320px) and (max-width: 479px) {
+  .modal-sbor h1 {
+    font-size: 18px; }
+  .modal-sbor p {
+    font-size: 9px; }
+  .modal-sbor-input-text {
+    font-size: 8px; }
+  .modal-sbor-input-btn {
+    font-size: 9px; }
+
+  .collection-block-1 h1 {
+    font-size: 13px; }
+  .collection-block-1 p {
+    font-size: 11px; }
+
   .header-nav li a {
     font-size: 11px; }
 
