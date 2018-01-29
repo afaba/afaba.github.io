@@ -173,7 +173,7 @@ body {
   .wecan h2 {
     text-transform: uppercase; }
   .wecan-que-mark-1 {
-    width: 3%;
+    width: 2%;
     cursor: pointer; }
   .wecan-main-img {
     width: 13%; }
@@ -478,10 +478,7 @@ body {
     padding: 0 7px; }
 
   .wecan-que-mark-1 {
-    width: 8%; }
-
-  .wecan-que-mark-2 {
-    width: 8%; }
+    width: 2%; }
 
   .mission-block-2 img {
     width: 55%;
@@ -492,6 +489,8 @@ body {
 
   .mission-block-1 p {
     font-size: 16px; }
+  .mission-block-1 img {
+    width: 80%; }
 
   .mission-block-1-line-height {
     line-height: 44px; }
@@ -522,10 +521,7 @@ body {
     font-size: 18px; }
 
   .wecan-que-mark-1 {
-    width: 8%; }
-
-  .wecan-que-mark-2 {
-    width: 8%; }
+    width: 3%; }
 
   .wecan-hide-block-1 {
     font-size: 10px;
@@ -553,6 +549,9 @@ body {
   .header-contacts {
     text-align: center; }
 
+  .mission-block-1 img {
+    width: 68%; }
+
   .mission-block-2 {
     text-align: center; }
     .mission-block-2-background {
@@ -579,13 +578,10 @@ body {
     margin: 3% 25%; }
 
   .wecan-main-img {
-    width: 60%; }
+    width: 22%; }
 
   .wecan-que-mark-1 {
-    width: 18%; }
-
-  .wecan-que-mark-2 {
-    width: 18%; }
+    width: 4%; }
 
   .wecan-hide-block-1 {
     font-size: 10px; }
@@ -641,6 +637,9 @@ body {
   .collection-block-1 h1 {
     font-size: 20px; } }
 @media (min-width: 320px) and (max-width: 479px) {
+  .mission-block-1 img {
+    width: 100%; }
+
   .modal-sbor h1 {
     font-size: 18px; }
   .modal-sbor p {
@@ -702,13 +701,10 @@ body {
     margin: 3% 5%; }
 
   .wecan-main-img {
-    width: 60%; }
+    width: 35%; }
 
   .wecan-que-mark-1 {
-    width: 18%; }
-
-  .wecan-que-mark-2 {
-    width: 18%; }
+    width: 6%; }
 
   .wecan-hide-block-1 {
     font-size: 10px; }
@@ -741,12 +737,6 @@ body {
 
   .wecan-hide-block-2 p {
     padding: 10px 5px; }
-
-  .wecan-que-mark-1 {
-    width: 29%; }
-
-  .wecan-que-mark-2 {
-    width: 29%; }
 
   .modal-input-text {
     margin: 2% 1%; }
@@ -781,12 +771,6 @@ body {
 
   .wecan-hide-block-2 {
     right: 2%; }
-
-  .wecan-que-mark-2 {
-    width: 20%; }
-
-  .wecan-que-mark-1 {
-    width: 20%; }
 
   .who-row-5-block-2 {
     width: 60%; } }
