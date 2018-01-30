@@ -56,5 +56,14 @@ $(document).ready(function() {
       }
     });
   });
+    $(window).scroll(function() {
+      $('.mov7').each(function(){
+        var imagePos = $('.main').offset().top;
+        var topOfWindow = $(window).scrollTop();
+        if (imagePos < topOfWindow+1000) {  
+        $(this).addClass('fadeInLeft');
+      }
+    });
+  });
 
 });
