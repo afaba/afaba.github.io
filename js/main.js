@@ -70,7 +70,7 @@ $(document).ready(function() {
         var imagePos = $('.main').offset().top;
         var topOfWindow = $(window).scrollTop();
         if (imagePos < topOfWindow+1000) {  
-        $(this).addClass('fadeInLeft');
+        $(this).addClass('fadeInRight');
       }
     });
   });
