@@ -623,6 +623,12 @@ body {
   .collection-block-1 h1 {
     font-size: 20px; } }
 @media (min-width: 320px) and (max-width: 479px) {
+  .info h1 {
+    font-size: 21px; }
+
+  .collection-block-1 {
+    width: 100%; }
+
   .mission-block-1 img {
     width: 100%; }
 
